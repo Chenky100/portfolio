@@ -12,7 +12,7 @@ html{
     width: 100%;
     min-height: 100vh;
     padding: 0px;
-    background: linear-gradient(90deg, rgb(9, 3, 31) 0%, rgb(27, 28, 99) 25%, rgb(24, 25, 70) 50%, rgb(27, 28, 99)75%,  rgb(9, 3, 31) 100% );
+    background: linear-gradient(90deg, rgb(3, 31, 41) 0%, rgb(5, 49, 66) 25%, rgb(24, 63, 100) 50%, rgb(5, 49, 66)75%,  rgb(3, 31, 41) 100% );
 
 }
 
@@ -73,6 +73,58 @@ html{
     top: 20%;
     left: 80%;
     animation: animate 5s linear infinite;
+}
+.box div:nth-child(11){
+    top: 55%;
+    left: 30%;
+    /* background-color: rgb(255, 30, 0); */
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(12){
+    top: 45%;
+    left: 72%;
+    animation: animate 16s linear infinite;
+}
+.box div:nth-child(13){
+    top: 55%;
+    left: 9%;
+    animation: animate 11s linear infinite;
+}
+.box div:nth-child(14){
+    top: 85%;
+    left: 52%;
+    animation: animate 13s linear infinite;
+}
+.box div:nth-child(15){
+    top: 75%;
+    left: 91%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(16){
+    top: 39%;
+    left: 88%;
+    animation: animate 5s linear infinite;
+}
+
+.box div:nth-child(17){
+    top: 38%;
+    left: 12%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(18){
+    top: 20%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(19){
+    top: 18%;
+    left: 28%;
+    animation: animate 15s linear infinite;
+}
+.box div:nth-child(20){
+    top: 55%;
+    left: 50%;
+    animation: animate 17s linear infinite;
 }
 
 @keyframes animate{
