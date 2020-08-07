@@ -12,7 +12,7 @@ html{
     width: 100%;
     min-height: 100vh;
     padding: 0px;
-    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgb(50, 25, 83) 25%, rgb(17, 1, 36) 50%, rgb(50, 25, 83)75%,  rgb(0, 0, 0) 100% );
+    background: linear-gradient(90deg, rgb(9, 3, 31) 0%, rgb(27, 28, 99) 25%, rgb(24, 25, 70) 50%, rgb(27, 28, 99)75%,  rgb(9, 3, 31) 100% );
 
 }
 
