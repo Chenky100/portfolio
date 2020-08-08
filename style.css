@@ -2,7 +2,7 @@ body{
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    background-color: rgb(231, 231, 222);
+    background-color: rgb(219, 216, 206);
 }
 html{
     padding: 0;
@@ -12,16 +12,17 @@ html{
     width: 100%;
     min-height: 100vh;
     padding: 0px;
-    background: linear-gradient(90deg, rgb(3, 31, 41) 0%, rgb(5, 49, 66) 25%, rgb(24, 63, 100) 50%, rgb(5, 49, 66)75%,  rgb(3, 31, 41) 100% );
+    background: linear-gradient(90deg, rgb(3, 27, 36) 0%, rgb(5, 49, 66) 25%, rgb(10, 36, 53) 50%, rgb(5, 49, 66)75%,  rgb(3, 27, 36) 100% );
 
 }
 
 .box div{
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 25px;
+    height: 25px;
     background-color: transparent;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 14px;
 }
 
 .box div:nth-child(1){
@@ -126,6 +127,11 @@ html{
     left: 50%;
     animation: animate 17s linear infinite;
 }
+.box div:nth-child(21){
+    top: 90%;
+    left: 75%;
+    animation: animate 17s linear infinite;
+}
 
 @keyframes animate{
     0%{
@@ -190,7 +196,7 @@ html{
 .more{
     width: 100%;
     min-height: 100vh;
-    text-align: center;
+    text-align: left;
 }
 /* .footer{
     border-top: 1px solid black;
@@ -205,7 +211,7 @@ html{
     /* clear: both; */
     /* position: relative; */
     height: 100px;
-    background-color: rgb(14, 2, 17);
+    background: linear-gradient(90deg, rgb(3, 27, 36) 0%, rgb(5, 49, 66) 25%, rgb(10, 36, 53) 50%, rgb(5, 49, 66)75%,  rgb(3, 27, 36) 100% );
     text-align: center;
     color: rgb(231, 231, 222);
     /* margin-top: -50px; */
@@ -276,7 +282,7 @@ html {
     padding: 10px;
 }
 #up{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(26, 19, 19);
     border-radius: 30px;
     width: 20px;
     padding: 5px;
@@ -294,4 +300,49 @@ a{
 #footer{
     
 }
+.work_boxes{
+    margin: auto;
+    max-width: 900px;
+    min-height: 50vh;
+}
 
+@media (max-width:960px) { 
+    .work_text{
+        margin: auto;
+        margin: 15px;
+    }
+    .work_img_box{
+        margin: auto;
+        margin: 10px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        }
+ }
+
+ @media (min-width:960px) { 
+    .work_text{
+        min-width: 45%;    
+        float: left;
+        margin: 5%;
+        margin-right: 2%;
+    
+    
+    }
+    .work_img_box{
+        margin: auto;
+        width: 40%;
+        min-width: 280px;
+        height: auto;
+        float: left;
+        margin: 5%;
+        margin-left: 2%;
+    }
+    
+    img{
+        width: 100%;
+        height: auto;
+        }
+         
+  } 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>portfolio</title>
+    <title>Chen Kahalany | Front-End Developer</title>
 </head>
 <body>
   <section id="top">
@@ -31,6 +31,8 @@
         <div></div>
         <div></div>
         <div></div>
+        <div></div>
+
         
       </div>
         <div class="top">   
@@ -72,7 +74,7 @@
         <br>
         
         <div class="goDown">  
-          <a href="#about" class="scroll-down" >
+          <a href="#work" class="scroll-down" >
             <img id="down" src="images\down-arrow.svg" alt="">
           </a> 
         </div>
@@ -81,48 +83,82 @@
         
     </div>
   </section>
+
+
+  <section id="work">
     <div class="more">
-        <section id="about">
-            <div class="user-details">
-              <h1> My Expertise </h1>
-              <p> Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS. </p>
+      <h1 style="text-align: center; font-size: 30px; font-weight: bold; ">Some of my work</h1>
+        <div class="work_boxes">
+          <div class="work_box">
+            <div class="work_text">
+              <h3>Sudoku </h3>
+              <p>Sudoku game</p>
+              <ul>
+                <li> HTML </li>
+                <li> CSS </li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+              </ul>
+              <div class="work_link">
+                <a href="https://chenky100.github.io/Sudoku/">Check it out</a>
+              </div>
             </div>
-            <div class="user">
-              <div class="tech">
-                <h2>Design</h2>
-                <i class="devicon-html5-plain-wordmark"></i>
-                <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                <i class="devicon-sass-original colored"></i>
-                <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-                   Vinyl XOXO lumbersexual</p>
+            <div class="work_img_box"> <img src="images\Sudoku.jpg" alt=""> </div>
+
+          </div>
+
+          <div class="work_box">
+            <div class="work_text">
+              <h3>Sudoku </h3>
+              <p>Sudoku game</p>
+              <ul>
+                <li> HTML </li>
+                <li> CSS </li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+              </ul>
+              <div class="work_link">
+                <a href="">Check it out</a>
               </div>
-              <div class="tech">
-                <h2>Code</h2>
-                  <i class="devicon-javascript-plain colored"></i>
-                  <i class="devicon-react-original-wordmark colored"></i>
-                  <i class="devicon-nodejs-plain-wordmark"></i>
-                  <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-                     Vinyl XOXO lumbersexual</p>
+            </div>
+            <div class="work_img_box"> <img src="images\Sudoku.jpg" alt=""> </div>
+
+          </div>
+
+          <div class="work_box">
+            <div class="work_text">
+              <h3>Sudoku </h3>
+              <p>Sudoku game</p>
+              <ul>
+                <li> HTML </li>
+                <li> CSS </li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+              </ul>
+              <div class="work_link">
+                <a href="">Check it out</a>
               </div>
-              <div class="tech">
-                <h2>Tools</h2>
-                <i class="devicon-git-plain"></i>
-                <i class="devicon-gulp-plain colored"></i>
-                <i class="devicon-atom-original-wordmark"></i>
-                <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-                   Vinyl XOXO lumbersexual</p>                   
-              </div>              
-            </div>      
-            <br><br><br><br><br>   
+            </div>
+            <div class="work_img_box"> <img src="images\Sudoku.jpg" alt=""> </div>
+
+          </div>
+        </div>
+          <a href="#top" class="scroll-down" >
+            <img id="up" src="images\up-chevron.svg" alt="">
+          </a> 
             
     </div>
   </section>
+  <section id="contact">
+
+  </section>
+
+
+ 
 
     
     <footer class="footer">
-      <a href="#top" class="scroll-down" >
-        <img id="up" src="images\up-chevron.svg" alt="">
-      </a> 
+      
       <br>
       <span id="footer">Made by Chen Kahalany</span>
         
@@ -135,12 +171,12 @@
           x.classList.toggle("change");
         }
         
-        $(function() {
-    $('.scroll-down').click (function() {
-      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
-      return false;
-    });
-  });
+  //       $(function() {
+  //   $('.scroll-down').click (function() {
+  //     $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+  //     return false;
+  //   });
+  // });
         </script>
         
 </body>
